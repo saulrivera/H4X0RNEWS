@@ -13,6 +13,8 @@
 		B2DC6A052439AFB000FAC895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DC6A042439AFB000FAC895 /* Assets.xcassets */; };
 		B2DC6A082439AFB000FAC895 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2DC6A072439AFB000FAC895 /* Preview Assets.xcassets */; };
 		B2DC6A0B2439AFB000FAC895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2DC6A092439AFB000FAC895 /* LaunchScreen.storyboard */; };
+		B2DC6A142439B30D00FAC895 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DC6A132439B30D00FAC895 /* NetworkManager.swift */; };
+		B2DC6A162439B41E00FAC895 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2DC6A152439B41E00FAC895 /* PostData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B2DC6A072439AFB000FAC895 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B2DC6A0A2439AFB000FAC895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2DC6A0C2439AFB000FAC895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2DC6A132439B30D00FAC895 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B2DC6A152439B41E00FAC895 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,7 @@
 				B2DC69FE2439AFAF00FAC895 /* AppDelegate.swift */,
 				B2DC6A002439AFAF00FAC895 /* SceneDelegate.swift */,
 				B2DC6A022439AFAF00FAC895 /* ContentView.swift */,
+				B2DC6A122439B2FD00FAC895 /* Modules */,
 				B2DC6A042439AFB000FAC895 /* Assets.xcassets */,
 				B2DC6A092439AFB000FAC895 /* LaunchScreen.storyboard */,
 				B2DC6A0C2439AFB000FAC895 /* Info.plist */,
@@ -73,6 +78,15 @@
 				B2DC6A072439AFB000FAC895 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B2DC6A122439B2FD00FAC895 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B2DC6A132439B30D00FAC895 /* NetworkManager.swift */,
+				B2DC6A152439B41E00FAC895 /* PostData.swift */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2DC6A162439B41E00FAC895 /* PostData.swift in Sources */,
+				B2DC6A142439B30D00FAC895 /* NetworkManager.swift in Sources */,
 				B2DC69FF2439AFAF00FAC895 /* AppDelegate.swift in Sources */,
 				B2DC6A012439AFAF00FAC895 /* SceneDelegate.swift in Sources */,
 				B2DC6A032439AFAF00FAC895 /* ContentView.swift in Sources */,
